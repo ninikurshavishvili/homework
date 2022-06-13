@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossorigin="anonymous">
+</head>
+<body>
+<form method="post">
+    <div style="margin-top: 80px" class="container">
+        <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+                <h2 class="fw-bold mb-0">Authentication</h2>
+            </div>
+
+            <div class="modal-body p-5 pt-0">
+                <div class="form-floating mb-3">
+                    <input type="text" name="username" class="form-control rounded-3" id="floatingPassword" placeholder="Username">
+                    <label for="floatingPassword">Username</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" name="email" class="form-control rounded-3" id="floatingInput"
+                           placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" name="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" name="confirm" class="form-control rounded-3" id="floatingPassword"
+                           placeholder="Confirm Password">
+                    <label for="floatingPassword">Confirm Password</label>
+                </div>
+                <input href="/registration" class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" value="Register">
+                <hr class="my-4">
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
